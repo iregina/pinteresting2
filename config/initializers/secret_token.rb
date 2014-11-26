@@ -1,0 +1,1 @@
+Pinteresting2::Application.config.secret_key_base = '57dc7bb385a68722e9cdea53f1c50762faf090078856d63b648f2bbcd45b936360ada253a61b3ac9ac88107ceeafe3732a9d43e4fb48381ccc40c4a184f6d67e'
