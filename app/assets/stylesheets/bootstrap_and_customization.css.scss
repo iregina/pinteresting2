@@ -1,13 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 $body-bg:  #ecf0f1;
-$font-family-sans-serif: 'Lato', sans-serif;
-$navbar-height: 55px;
-$navbar-default-bg: #D2527F;
-$navbar-default-brand-color: white;
-$navbar-default-link-color: white;
-$brand-primary: #D2527F;
+$font-family: 'Montserrat', sans-serif;
+$navbar-height: 80px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: black;
+$navbar-default-link-color: black;
+$brand-primary: #F62459;
 $jumbotron-bg: white;
+$border-radius: 0px;
+
 
 @import "bootstrap-sprockets";
 @import 'bootstrap';
@@ -17,5 +19,38 @@ $jumbotron-bg: white;
 }
 
 .navbar-brand {
-     font-weight: bold; font-size: 25px;
+    font-weight: bold; font-size: 35px;
+		padding-top: 30px;
+}
+
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+.navbar-nav >li {
+	padding-top: 15px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+a.button {
+    background-color: white;
+    margin: .2cm;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: solid #000000;
+}
+
+a.button:hover {
+    background-color: black !important;
+		color: white !important;
 }
